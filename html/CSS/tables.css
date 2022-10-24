@@ -1,0 +1,51 @@
+
+.table-container h3 {
+	color: #FA5851;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+table {
+	width: 100%;
+	border: 1px solid #FA5851;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+    font-size: 15px;
+
+}
+
+table tr {
+	border: 1px solid;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: white;
+}
+
+table tbody tr:hover {
+    background-color: #B4D2DF;
+}
+
+table th,
+table td {
+	border: 1px solid #FA5851;
+	margin: 0.5rem;
+	padding: 0.7rem;
+	
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+table th {
+  background-color: #FA5851;
+  color: white;
+}
+
+.table-container {
+	padding: 1rem 1rem;
+}

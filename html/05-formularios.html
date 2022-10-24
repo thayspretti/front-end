@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./CSS/style.css">
+	</head>
+	<body>
+		<header>
+			<img width="170" height="170" src="./media/palavraria.png" id="logo" alt="logomarca palavraria" loading="lazy">	
+		</header>
+		
+		<section>
+			<nav id="menu-h">
+				<ul>
+					<li><a href="./01-homepage.html">.home</a></li>
+					<li><a href="./02-cursos.html">.cursos & oficinas</a></li>
+					<li><a href="./03-consultoria.html">.consultoria</a></li>
+					<li><a href="./04-clube.html">.clube do livro</a></li>
+					<li><a href="./05-formularios.html">.fale conosco</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h1>.fale conosco</h1>
+				<p>este aqui é nosso espaço de comunicação. se você tiver ficado com dúvidas em relação a algum dos nossos serviços, se tiver alguma sugestão (ou crítica) ou se só quiser mais informações sobre a <strong>palavraria</strong>, é só mandar uma mensagem que a gente responde loguinho <3</p>
+				<form method="post">
+					<div id="assunto">
+						<p>
+							<label>sua mensagem é sobre: </label>
+							<input type="radio" name="serviços" value="cursos">cursos e oficinas
+							<input type="radio" name="serviços" value="consultoria">consultoria
+							<input type="radio" name="serviços" value="clube">clube do livro
+							<input type="radio" name="serviços" value="outros">outros assuntos
+						</p>
+					</div>
+					<div>
+						<input type="text" name="nome" id="nome" placeholder="seu nome aqui :)">
+					</div>
+					<div>
+						<input type="email" name="email" id="email" placeholder="seu-melhor-email@email.com">
+					</div>
+					<div>
+						<input type="tel" name="phone" id="phone" placeholder="(99) 9-9999-9999">
+					</div>
+					<div> 
+						<textarea name="mensagem" id="mensagem" placeholder="deixe aqui sua mensagem pra gente ;D" rows="5"></textarea>
+					</div>
+					<div id="submit">
+						<input type="submit" name="">
+					</div>
+
+				</form>
+			</article>
+		</section>
+		<footer>
+			<p>Desenvolvido por Thays Pretti.</p>
+		</footer>
+	</body>
+</html>
